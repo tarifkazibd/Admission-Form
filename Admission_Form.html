@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+<body > 
+   <center>
+  
+        <marquee behavior="scroll" scrollamount="3" direction="left" onmouseover="stop();" onmouseout="start();" style="background-color: #8b0000;"><h3 style="color: #ffffff;" >Welcome to Themezone Academy | Admission Now Open !</h3> </marquee>
+     <div class="heading">
+<img src="img/themezone-logo.jpg" height="150px" alt="Themezone Academy" class="">
+<h1 class="head-title"> Admission Form</h1>
+<p style="color: #a52a2a;"><b>Address :</b> Chittagong, Chittagong Division, Bangladesh L Block Halishahar</p>
+     </div>
+       
+   <form action="">
+   <table>
+       <tr>
+           <td><hr></td>
+           <td><hr></td>
+           <td><hr></td>
+           <td><hr></td>
+           </tr>
+       <tr>
+           <td>Date :</td>
+           <td><input type="date" name="stdname"></td>
+           
+           <td><label for="course">Course Name :</label></td>
+           <td>
+           <select name="course" id=" course">
+               <option value="course" selected>Select course</option>
+               <option value="course">Full Stack Web Development</option>
+               <option value="course">Graphic Design with Freelancing</option>
+               <option value="course">Ui/Ux Design With Freelancing</option>
+           </select>
+           </td> </tr>
+        <tr>
+             <td> <label for="others-course">Others Intarested Course :</label></td>
+           <td>
+              <input type="checkbox">Web Development <br>
+              <input type="checkbox">Graphic Design
+              <input type="checkbox">Ui/Ux Design  
+           </td>  
+           <td><p>Gender :</p></td>
+           <td>
+               <input type="radio" name="gender">Male
+               <input type="radio" name="gender">Female
+               <input type="radio" name="gender">Others    
+           </td>         
+       </tr>
+           <tr>
+             <td>Your Name :</td>
+           <td><input type="text" name="stdname"></td>
+           <td>Father's name :</td>
+           <td><input type="text" name="fname"></td> 
+       </tr>
+       <tr><td>Mobile Number :</td>
+           <td><input type="text" name="mobile"></td>
+           <td>E-mail Address :</td>
+           <td><input type="email" name="email"></td></tr>
+           <tr>
+           <td><hr></td>
+           <td><hr></td>
+           <td><hr></td>
+           <td><hr></td>
+           </tr>
+           <tr>
+               <td>Address :</td>
+               <td><textarea name="address" id="" cols="22" rows="2" placeholder="House:(floor), Road:"></textarea></td>
+               <td>City :</td>
+               <td><select name="city" id="">
+                   <option value="city" selected>Dhaka</option>
+                   <option value="city">Chittagong</option>
+                   <option value="city">Khulna</option>
+                   <option value="city">Gopalganj</option>
+                   <option value="city">Rajshahi</option>
+                </select>
+                <label>Country :</label>
+                <select name="country" id="">
+                   <option value="country" selected>Bangladesh</option>
+                   <option value="country">United Kingdom</option>
+                   <option value="country">India</option>
+                </select>
+                </td> 
+           </tr>
+           <tr>  
+               <td>Upload Photo(38px:38px) :</td>
+               <td><input type="file"></td>
+               <td>Upload Signature :</td>
+               <td><input type="file"></td>
+           </tr> 
+   </table>
+   </form>
+<label>..........................................................................................................................</label><br>
+  <label for="process" style="color: #004216;">Your form fill up process:</label>
+          <progress max="100" value="99" name="process"></progress>  99%
+          <br> <br>
+          <a href="#"><input type="button" value="Cancel" style="background-color: red; color: white"></a>
+           <button style="background-color:green; color:white" >Submit</button>
+  </center>  
+</body>
+</html>
